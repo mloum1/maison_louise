@@ -836,24 +836,25 @@ hero-title {
     max-width: 300px;
     margin: 0 auto
   }
+  .hero-stats {
+    gap: 0.5rem;
+    padding: 0 0.25rem;
+  }
 
-  @media (max-width: 768px) {
-    .stat-card {
-      padding: 1.25rem 1rem;
-    }
+  .stat-card {
+    padding: 1rem 0.5rem;
+    border-radius: 14px;
+  }
 
-    .stat-icon {
-      font-size: 1.25rem;
-      margin-bottom: .25rem;
-    }
+  .stat-icon {
+    font-size: 1.75rem;
+  }
 
-    .stat-number {
-      font-size: 1.25rem;
-      margin-bottom: .25rem;
-    }
+  .stat-number {
+    font-size: 1.5rem;
+  }
 
-    .stat-label {
-      font-size: .75rem;
-    }
+  .stat-label {
+    font-size: 0.6rem;
   }
 }
